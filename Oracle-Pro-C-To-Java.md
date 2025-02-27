@@ -41,6 +41,10 @@ int main() {
 
 ### Convert **Oracle Pro*C** to Java Spring illustration
 
+- `PlSqlParser.g4`: https://github.com/antlr/grammars-v4/blob/master/sql/plsql/PlSqlParser.g4
+- `PlSqlLexer.g4`: https://github.com/antlr/grammars-v4/blob/master/sql/plsql/PlSqlLexer.g4
+- 
+
 I will now illustrate how to extend the ANTLR grammar files (PlSqlLexer.g4 and PlSqlParser.g4) to handle the syntax of Oracle ProC embedded within C code. This code involves embedded SQL statements such as EXEC SQL SELECT, EXEC SQL INSERT, EXEC SQL DECLARE, and EXEC SQL FETCH.
 
 ### Step 1. Modify `PlSqlLexer.g4` (Lexer)
